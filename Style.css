@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-section {
+    background-image: url("bg.png");
+    height: 100vh;
+}
+
+.text-heroh {
+    font-size: 7.3vw;
+    font-weight: 500;
+    color: rgb(77, 76, 76);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.text-hero {
+    font-size: 7.3vw;
+    font-weight: 500;
+    color: rgb(65, 79, 108);
+    text-align: center;
+}
+
+#history {
+    background-image: url("peak2.png");
+    height: 100vh;
+    padding: 6vh 5vw 2vh 5vw;
+
+}
+
+.hisdiv {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* Adjust alignment if needed */
+    min-height: 300px;
+}
+
+.historyh {
+    font-size: 8vw;
+    color: rgb(102, 121, 150);
+    text-align: start;
+    margin-bottom: 0;
+
+}
+
+.his {
+    font-size: 2vw;
+    color: rgb(65, 79, 108);
+
+}
+
+.historyp {
+    font-size: 18px !important;
+    color: rgb(55, 59, 62);
+    padding: 0 5vw 0 5vw;
+    display: block;
+}
+
+#carousel {
+    background-image: url("peak2.png");
+    margin: 0 auto !important;
+    width: auto;
+
+}
+
+.carousel {
+    width: 30vw;
+    margin: auto !important;
+}
+
+.carousel-indicators {
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-indicators button {
+    width: 2vh !important;
+    height: 2vh !important;
+    border-radius: 50% !important;
+    background-color: #bbb;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.carousel-indicators .active {
+    background-color: #333;
+}
+
+
+#team {
+    height: auto;
+    padding: 6vh 5vw 2vh 5vw;
+}
+
+.teamp {
+    display: inline-block !important;
+    padding-top: 6.4vh;
+    vertical-align: middle !important;
+
+    line-height: normal !important;
+}
+
+.mountain {
+    background-color: rgb(65, 79, 108);
+    color: rgb(177, 181, 190);
+    padding-left: 6vw;
+
+}
+
+.mon {
+    padding: 2vh 1vw 2vh 1vw !important;
+}
+
+.mon:hover {
+    color: rgb(65, 79, 108);
+    background-color: rgb(177, 181, 190);
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s;
+    padding: 20px 0;
+}
+.navbar a{
+    color: rgba(255, 255, 255, 0.885) !important;
+}
+.navbar-scrolled {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-scrolled a{
+    color: rgb(77, 76, 76) !important;
+}
+
+.footer {
+    background-color: rgb(64, 78, 108);
+    padding: 20px 0;
+    color: rgb(91, 109, 146);
+    position: relative;
+}
+
+.footer-logo {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer-logo img {
+        max-width: 70px;
+        margin: 0 auto 10px;
+    }
+
+    .footer-copyright {
+        margin-top: 10px;
+    }
+
+    .carousel {
+        width: 60vw;
+        margin: auto !important;
+    }
+}
+
+.historyp {
+    font-size: 10px;
+
+    color: rgb(55, 59, 62);
+}
+
+#activity {
+    background: url("peak3.png");
+    height: 75vh;
+    background-repeat: no-repeat;
+    padding: 6vh 5vw 2vh 5vw;
+}
+
+ul {
+    list-style: none;
+}
+
+.sch {
+    padding-left: 2vw;
+}
+
+.yo {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    width: fit-content !important;
+    float: left;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    padding: 2vh 4vw 2vh 2vw;
+}
+@media only screen and (min-width: 992px) {
+    #activity {
+        background: url("peak3.png");
+        height: 100vh;
+        background-repeat: no-repeat;
+        padding: 6vh 5vw 2vh 5vw;
+    } 
+}
